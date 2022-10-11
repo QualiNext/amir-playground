@@ -1,6 +1,5 @@
 variable account {
     type = string
-    default = "207801480705"
 }
 
 variable fluentd {
@@ -21,8 +20,4 @@ variable elk{
 variable istio{
     type = bool
     default = true
-}
-
-variable role_arn{
-    type = string
 }
