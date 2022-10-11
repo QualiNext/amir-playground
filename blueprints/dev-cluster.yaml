@@ -27,7 +27,7 @@ grains:
       # Execution Host - the platform where the asset executable will run.
       # For example, a Kubernetes cluster can be used as an execution host.
         name: '{{ .inputs.host_name }}'
-        service-account: eks-cluster-creator
+        service-account: default
       inputs:
       # - aws_region: '{{ .inputs.aws_region }}'
       # - cluster_name: '{{ .inputs.cluster_name }}'
