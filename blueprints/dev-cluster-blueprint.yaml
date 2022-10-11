@@ -22,7 +22,7 @@ grains:
     spec:
       source:
 #         path: github.com/QualiNext/QualiDevOps.git//tree/dev-cluster/EKS/envs/dev-cluster
-        path: github.com/QualiNext/amir-playground/tree/master/assets/envs/dev-cluster
+        path: github.com/QualiNext/amir-playground.git//tree/master/assets/envs/dev-cluster
       host:
       # Execution Host - the platform where the asset executable will run.
       # For example, a Kubernetes cluster can be used as an execution host.
