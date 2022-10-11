@@ -22,3 +22,7 @@ variable istio{
     type = bool
     default = true
 }
+
+variable role_arn{
+    type = string
+}
