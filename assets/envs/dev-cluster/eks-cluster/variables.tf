@@ -5,7 +5,7 @@ variable "aws-region" {
 
 variable "cluster-name" {
   type    = string
-  default = "quali-devops"
+  default = "dev-cluster"
 }
 
 variable "vpc_cidr" {
