@@ -21,7 +21,7 @@ grains:
     kind: terraform
     spec:
       source:
-        path: github.com/QualiNext/QualiDevOps/tree/dev-cluster/EKS/envs/dev-cluster
+        path: github.com/QualiNext/QualiDevOps.git//tree/dev-cluster/EKS/envs/dev-cluster
       host:
       # Execution Host - the platform where the asset executable will run.
       # For example, a Kubernetes cluster can be used as an execution host.
