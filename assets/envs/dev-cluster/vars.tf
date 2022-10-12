@@ -2,7 +2,7 @@ variable account {
     type = string
 }
 
-variable cluster_name {
+variable cluster-name {
     type = string
 }
 

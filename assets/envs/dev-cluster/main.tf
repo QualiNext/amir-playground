@@ -1,7 +1,7 @@
 module "eks" {
   source  = "./eks-cluster"
   account = var.account
-  cluster_name = var.cluster_name
+  cluster-name = var.cluster-name
 }
 
 module "fluentd" {
