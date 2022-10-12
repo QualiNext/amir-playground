@@ -41,11 +41,11 @@ module "eks" {
   # Change the roleArn and username (which is actually the role name in IAM) to match required AWS account.
   # Should be the group IT assigns to the developers in order to keep it strictly IT prerogative.
   aws_auth_roles = [
-    # {
-    #   rolearn  = "arn:aws:iam::123456789:role/role"
-    #   username = "PowerUsers"
-    #   groups   = ["system:masters"]
-    # },
+    {
+      rolearn  = var.role_arn
+      username = var.role_username
+      groups   = ["system:masters"]
+    },
   ]
 
   aws_auth_users = [

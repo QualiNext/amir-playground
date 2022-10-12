@@ -57,3 +57,10 @@ variable "desired_size" {
   default = 1
 }
 
+variable "role_arn" {
+  type = string
+}
+
+variable "role_username" {
+  type = string
+}

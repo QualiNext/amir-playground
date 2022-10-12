@@ -2,6 +2,8 @@ module "eks" {
   source  = "./eks-cluster"
   account = var.account
   cluster-name = var.cluster-name
+  role_arn = var.role_arn
+  role_username = var.role_username
 }
 
 module "fluentd" {

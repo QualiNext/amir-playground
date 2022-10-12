@@ -6,6 +6,14 @@ variable cluster-name {
     type = string
 }
 
+variable "role_arn" {
+  type = string
+}
+
+variable "role_username" {
+  type = string
+}
+
 variable fluentd {
     type = bool
     default = true
