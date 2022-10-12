@@ -2,6 +2,10 @@ variable account {
     type = string
 }
 
+variable cluster_name {
+    type = string
+}
+
 variable fluentd {
     type = bool
     default = true
